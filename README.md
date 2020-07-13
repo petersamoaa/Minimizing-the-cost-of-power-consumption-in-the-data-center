@@ -4,13 +4,13 @@ To solve this issue we gonna use Deep Q_Learning or DQN as an AI solution. Deep 
 The server can host the users through the login operation, and also transmit the data in. That increases the temperature of the server. Also, the users can logout from the server and the data could be transmitted out of the server. Hence, the temperature of the server can change, but based on the integrated cooling system the temperature of the server should remain between 18-24 degrees. 
 To define the evnironment we need to set the parametrs and variables
 As for parameters: Parameters:
- the average atmospheric temperature over a month
- the optimal range of temperatures of the server, which will be [18C; 24C]
- the minimum temperature of the server below which it fails to operate, which will be 􀀀20C
- the maximum temperature of the server above which it fails to operate, which will be 80C
- the minimum number of users in the server, which will be 10
- the maximum number of users in the server, which will be 100
- the maximum number of users in the server that can go up or down per minute, which will be 5
- the minimum rate of data transmission in the server, which will be 20
- the maximum rate of data transmission in the server, which will be 300
- the maximum rate of data transmission that can go up or down per minute, which will be 10
+the average atmospheric temperature over a month
+the optimal range of temperatures of the server, which will be [18C; 24C]
+the minimum temperature of the server below which it fails to operate, which will be -20C
+the maximum temperature of the server above which it fails to operate, which will be 80C
+the minimum number of users in the server, which will be 10
+the maximum number of users in the server, which will be 100
+the maximum number of users in the server that can go up or down per minute, which will be 5
+the minimum rate of data transmission in the server, which will be 20
+the maximum rate of data transmission in the server, which will be 300
+the maximum rate of data transmission that can go up or down per minute, which will be 10
