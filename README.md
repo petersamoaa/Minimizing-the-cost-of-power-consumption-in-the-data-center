@@ -8,11 +8,11 @@ As for parameters: Parameters:<br/>
 - the optimal range of temperatures of the server, which will be [18C; 24C]
 - the minimum temperature of the server below which it fails to operate, which will be -20C
 - the maximum temperature of the server above which it fails to operate, which will be 80C
-- the minimum number of users in the server, which will be 10
-- the maximum number of users in the server, which will be 100
+- the minimum number of users in the server, which will be 10 (this value is just for simulation purpose)
+- the maximum number of users in the server, which will be 100 (this value is just for simulation purpose)
 - the maximum number of users in the server that can go up or down per minute, which will be 5
-- the minimum rate of data transmission in the server, which will be 20
-- the maximum rate of data transmission in the server, which will be 300
+- the minimum rate of data transmission in the server, which will be 20 (this value is just for simulation purpose)
+- the maximum rate of data transmission in the server, which will be 300 (this value is just for simulation purpose)
 - the maximum rate of data transmission that can go up or down per minute, which will be 10<br/>
 As for Variables:<br/>
 - the temperature of the server at any minute
