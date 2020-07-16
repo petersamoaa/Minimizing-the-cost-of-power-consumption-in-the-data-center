@@ -20,3 +20,18 @@ To define the evnironment we need to set the parametrs and variables<br/>
 - the rate of data transmission at any minute
 - the energy spent by the AI onto the server (to cool it down or heat it up) at any minute
 - the energy spent by the server’s integrated cooling system that automatically brings the server’s temperature back to the optimal range whenever the server’s temperature goes outside this optimal range
+#### Define the Environment --> State, Reward, and Action <br/>
+The ***state*** will be the input of the neural network. The status features are 
+- The temperature of the server at time t.
+- The number of users in the server at time t.
+- The rate of data transmission in the server at time t.
+So those elements will be in vector with 3 elements which will be the input of the network. 
+
+The ***action*** that taken is related to heat up or cool down in order to regulate the temperature of the server. <br/>
+0 The AI cools down the server by 3C <br/>
+1 The AI cools down the server by 1,5C <br/>
+2 The AI does not transfer any heat to the server (no temperature change) <br/>
+3 The AI heats up the server by 1,5C <br/>
+4 The AI heats up the server by 3C <br/>
+
+The ***reward*** is the difference between the energy consumed when we don't have an AI system to regulate the temperature and with an AI system. Now we have one assumption says that the energy spent by the cooling and heating system is the difference between the temperature within time.   
