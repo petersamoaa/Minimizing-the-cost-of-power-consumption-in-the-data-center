@@ -35,4 +35,4 @@ The ***action*** that taken is related to heat up or cool down in order to regul
 4 The AI heats up the server by 3C <br/>
 
 The ***reward*** is the difference between the energy consumed when we don't have an AI system to regulate the temperature and with an AI system. Now we have one assumption says that the energy spent by the cooling and heating system is the difference between the temperature within time. 
-***So now the reward at a specific time t is the absolute value of the temperature change applied to the server when there is no AI minus the absolute value of the temperature change cost onto this server when we have an AI. 
+***So now the reward at a specific time t is the absolute value of the temperature change applied to the server when there is no AI minus the absolute value of the temperature change cost onto this server when we have an AI.*** 
